@@ -1,0 +1,22 @@
+/*
+    // Access elements of Matrix Data Structure
+        Like one-dimensional arrays, matrices can be accessed randomly by using their indices to access the
+        individual elements. A cell has two indices, one for its row number, and the other for its column
+        number. We can use arr[i][j] to access the element which is at the ith row and jth column of the
+        matrix.
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    // Initializing a 2-D array with values
+    int arr[3][3]
+        = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+
+    // Accessing elements of 2-D array
+    printf("First element of first row: %d\n", arr[0][0]);
+    printf("Third element of second row: %d\n", arr[1][2]);
+    printf("Second element of third row: %d\n", arr[2][1]);
+    return 0;
+}
