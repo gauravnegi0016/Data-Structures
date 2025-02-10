@@ -1,0 +1,17 @@
+/*
+    // Declaration of Matrix Data Structure
+        Declaration of a Matrix or two-dimensional array is very much similar to that of a one-dimensional array.
+*/
+
+#include <stdio.h>
+
+int main() {
+
+    // Defining number of rows and columns in matrix
+    int rows = 3, cols = 3;
+  
+    // Array Declaration
+    int arr[rows][cols];
+  
+    return 0;
+}
